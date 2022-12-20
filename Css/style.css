@@ -24,7 +24,7 @@
     --cursive-font: 'Damion', 'Lato', sans-serif;
     --biggest: 2.5rem;
     --h1: 2.25rem;
-    --h2: 1.5rem;
+    --h2: 1.2rem;
     --h3: 1.25rem;
     --text-size: 1rem;
     --smal-text-size: .814rem;
@@ -40,7 +40,7 @@
     :root {
         /* * Typography * */
         --biggest: 3.25rem;
-        --h1: 3.25rem;
+        --h1: 2.75rem;
         --h2: 2.5rem;
         --h3: 1.25rem;
         --text-size: 1rem;
@@ -103,7 +103,7 @@ h3 {
 }
 
 p {
-    font-size: var(--h3);
+    font-size: var(--text-size);
 }
 
 ul {
@@ -217,6 +217,9 @@ button {
 .header-scroll {
     background: rgba(0, 0, 0, 0.186);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    backdrop-filter: blur(5.5px);
+        -webkit-backdrop-filter: blur(5.5px);
+    
 }
 
 #nav {
@@ -282,7 +285,7 @@ button {
 
 .nav_item_link {
     color: var(--second-color);
-    font-size: var(--h3);
+    font-size: var(--text-size);
     transition: .15s;
 
 }
